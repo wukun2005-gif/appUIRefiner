@@ -2,7 +2,7 @@
 
 用自然语言改造既有软件界面的概念验证 Demo（路线 A + 路线 B），依据 [PRD.md](./PRD.md) 与 [DEV-PLAN.md](./DEV-PLAN.md) 实现。
 
-**它是怎么实现的？（面向非技术读者的图文介绍）：[docs/how-it-works.html](./docs/how-it-works.html)** —— 也可在 demo 首页点击"它是怎么实现的？"直接查看（dev 模式下由 Vite 托管于 `/how-it-works.html`）。
+**它是怎么实现的？（面向非技术读者的图文介绍）**：见 [PRD.md §2.2「实现原理一览」](./PRD.md)。
 
 ## 启动
 

@@ -25,9 +25,6 @@ export function AppPicker({ onOpen, onOpenSettings }: { onOpen: (meta: AppMeta) 
       <p className="picker-narrative">
         两条接入路线，一套 Agent：对<b>自研 Web 应用</b>以 SDK 形式集成（路线 A）；对有<b>厂商适配层</b>的存量 ERP
         写入差量（路线 B）。改动可预览、可回滚、按角色持久化、软件升级不丢。
-        <a className="how-link" href="/how-it-works.html" target="_blank" rel="noreferrer">
-          它是怎么实现的？（图文版介绍 →）
-        </a>
       </p>
       {error && <p className="error">加载失败：{error}（请确认 server 已启动）</p>}
       <div className="picker-cards">

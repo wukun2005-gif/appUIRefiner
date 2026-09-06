@@ -3,8 +3,6 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  // 托管仓库 docs/ 目录：/how-it-works.html 可直接访问
-  publicDir: "../docs",
   server: {
     port: 5173,
     proxy: {

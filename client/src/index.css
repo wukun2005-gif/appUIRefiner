@@ -26,8 +26,6 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
 .picker-header h1 { font-size: 30px; letter-spacing: 0.5px; }
 .picker-header .sub { color: var(--muted); margin-top: 6px; }
 .picker-narrative { margin: 20px 0 28px; line-height: 1.7; color: #3a4358; background: var(--accent-weak); border: 1px solid #d3e0fb; border-radius: 10px; padding: 14px 18px; }
-.how-link { display: inline-block; margin-left: 8px; color: var(--accent); font-weight: 600; text-decoration: none; border-bottom: 1px dashed var(--accent); }
-.how-link:hover { opacity: .8; }
 .picker-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
 .card { text-align: left; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 22px; display: flex; flex-direction: column; gap: 10px; transition: box-shadow 0.15s, transform 0.15s; }
 .card:hover { box-shadow: 0 8px 24px rgba(30, 50, 100, 0.12); transform: translateY(-2px); }
